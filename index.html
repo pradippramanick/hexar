@@ -142,9 +142,7 @@
     "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
     "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
     "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "As robotic systems become increasingly complex, the need for explainable decision-making becomes critical. Existing
-explainability approaches in robotics typically either
-focus on individual modules, which can be difficult to
+    "abstract": "As robotic systems become increasingly complex, the need for explainable decision-making becomes critical. Existing explainability approaches in robotics typically either focus on individual modules, which can be difficult to
 query from the perspective of high-level behaviour, or
 employ monolithic approaches, which do not exploit the
 modularity of robotic architectures. We present HEXAR
@@ -207,54 +205,6 @@ autonomous systems. ",
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
@@ -270,17 +220,25 @@ autonomous systems. ",
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?user=YOTeAXUAAAAJ&hl=en" target="_blank">Ferran Gebellí Guinjoan</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="https://pradippramanick.github.io/" target="_blank">Pradip Pramanick </a>
+                    <a href="https://pradippramanick.github.io/" target="_blank">Pradip Pramanick</a><sup>*</sup>,</span> <br>
                     <span class="author-block">
-                    <a href="https://antonioandriella.com//" target="_blank">Antonio Andriella </a>
+                    <a href="https://antonioandriella.com/" target="_blank">Antonio Andriella</a>, </span>
+                    <span class="author-block">
+                    <a href="http://www.iri.upc.edu/people/galenya" target="_blank">Guillem Alenyà</a>, </span>
+                    <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=BhGALHwAAAAJ&hl=en&oi=ao" target="_blank">Anais Garrell</a>, </span>
+                    <span class="author-block">
+                    <a href="https://www.iiia.csic.es/~raquel.ros" target="_blank">Raquel Ros</a>, </span>
+                    <span class="author-block">
+                    <a href="http://wpage.unina.it/silrossi/index.html" target="_blank">Silvia Rossi</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <!-- <span class="author-block">Institution Name<br>ICRA 2026</span> -->
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><br><sup>*</sup>Equal Contribution</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -295,17 +253,6 @@ autonomous systems. ",
                         <span>Paper</span>
                       </a>
                     </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
@@ -348,7 +295,7 @@ autonomous systems. ",
       </video>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+         HEXAR orchestrates specialised component explainers that enables robots to explain their unexpected behaviors when users are unsure of what went wrong. <br> Here, we see an example where a TIAGO robot fails to grasp a bottle and provides an explanation of the failure.
       </h2>
     </div>
   </div>
@@ -432,30 +379,6 @@ autonomous systems.
 </section>
 <!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/9waqrADxoBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -489,28 +412,6 @@ autonomous systems.
 </section>
 <!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
@@ -521,12 +422,11 @@ autonomous systems.
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@article{love2026hexar,
+  title={HEXAR: a Hierarchical Explainability Architecture for Robots},
+  author={Love, Tamlin and Gebell{\'\i}, Ferran and Pramanick, Pradip and Andriella, Antonio and Aleny{\`a}, Guillem and Garrell, Anais and Ros, Raquel and Rossi, Silvia},
+  journal={arXiv preprint arXiv:2601.03070},
+  year={2026}
 }</code></pre>
     </div>
 </section>
